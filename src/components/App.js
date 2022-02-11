@@ -1,3 +1,5 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
-ReactDOM.render(element, container[, callback]);
+import React from "react";
+function Welcome(props) {
+  return <h1>Hello, {props.name}</h1>;
+}
 expert default App;
