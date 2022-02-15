@@ -1,9 +1,11 @@
 import React from "react";
 
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
-}
+const App = () => {
+  return;
+  <p>
+    Now I can render any React component on any DOM node I want using
+    ReactDOM.render
+  </p>;
+};
 
-const element = <Welcome name="Sara" />;
-ReactDOM.render(element, document.getElementById("root"));
 export default App;
